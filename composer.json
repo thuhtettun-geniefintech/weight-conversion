@@ -1,12 +1,12 @@
 {
-    "name": "spatie/weight-conversion",
+    "name": "thuhtet/weight-conversion",
     "description": "Weight Conversion in PHP",
     "keywords": [
-        "spatie",
+        "thuhtet",
         "laravel",
         "weight-conversion"
     ],
-    "homepage": "https://github.com/spatie/weight-conversion",
+    "homepage": "https://github.com/thuhtet/weight-conversion",
     "license": "MIT",
     "authors": [
         {
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\WeightConversion\\": "src",
-            "Spatie\\WeightConversion\\Database\\Factories\\": "database/factories"
+            "Thuhtet\\WeightConversion\\": "src",
+            "Thuhtet\\WeightConversion\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\WeightConversion\\Tests\\": "tests"
+            "Thuhtet\\WeightConversion\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -55,10 +55,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\WeightConversion\\WeightConversionServiceProvider"
+                "Thuhtet\\WeightConversion\\WeightConversionServiceProvider"
             ],
             "aliases": {
-                "WeightConversion": "Spatie\\WeightConversion\\Facades\\WeightConversion"
+                "WeightConversion": "Thuhtet\\WeightConversion\\Facades\\WeightConversion"
             }
         }
     },

@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\WeightConversion\Facades;
+namespace Thuhtet\WeightConversion\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Spatie\WeightConversion\WeightConversion
+ * @see \Thuhtet\WeightConversion\WeightConversion
  */
 class WeightConversion extends Facade
 {

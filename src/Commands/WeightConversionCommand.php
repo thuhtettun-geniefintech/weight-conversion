@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\WeightConversion\Commands;
+namespace Thuhtet\WeightConversion\Commands;
 
 use Illuminate\Console\Command;
 

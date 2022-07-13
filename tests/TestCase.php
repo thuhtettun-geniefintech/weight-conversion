@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\WeightConversion\Tests;
+namespace Thuhtet\WeightConversion\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\WeightConversion\WeightConversionServiceProvider;
+use Thuhtet\WeightConversion\WeightConversionServiceProvider;
 
 class TestCase extends Orchestra
 {

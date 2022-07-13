@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\WeightConversion;
+namespace Thuhtet\WeightConversion;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Spatie\WeightConversion\Commands\WeightConversionCommand;
+use Thuhtet\WeightConversion\Commands\WeightConversionCommand;
 
 class WeightConversionServiceProvider extends PackageServiceProvider
 {
