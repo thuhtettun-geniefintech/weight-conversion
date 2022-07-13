@@ -4,14 +4,16 @@ namespace Thuhtet\WeightConversion;
 
 class WeightConversion
 {
+    protected float $kilograms;
+
     public static function kilogram(float $kilograms): self
     {
-        return new static($kilograms);
+        return new self($kilograms);
     }
 
-    public function __construct(protected float $kilograms)
+    public function __construct(float $kilograms)
     {
-        # code...
+        $this->kilograms = $kilograms;
     }
 
     public function toPounds(): float
